@@ -1,0 +1,24 @@
+.button {
+  background-color: $button-color;
+  color: #fff;
+
+  &--info {
+    background-color: $info-color;
+    color: #fff;
+  }
+
+  &--success {
+    background-color: $success-color;
+    color: #fff;
+  }
+
+  &--warning {
+    background-color: $warning-color;
+    color: #fff;
+  }
+
+  &--error {
+    background-color: $error-color;
+    color: #fff;
+  }
+}

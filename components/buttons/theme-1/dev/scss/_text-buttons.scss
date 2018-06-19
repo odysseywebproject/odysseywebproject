@@ -1,0 +1,56 @@
+.text-button{
+  border: none;
+  color: $text-button-color;
+  background-color: transparent;
+
+  &--info {
+    color: $info-color;
+  }
+
+  &--success {
+    color: $success-color;
+  }
+
+  &--warning {
+    color: $warning-color;
+  }
+
+  &--error {
+    color: $error-color;
+  }
+
+  // Comprobar si se van a generar las clases auxiliares
+  @if ($auxiliar-classes) {
+    &--info-light {
+      color: $info-color--light;
+    }
+
+    &--info-dark {
+      color: $info-color--dark;
+    }
+
+    &--success-light {
+      color: $success-color--light;
+    }
+
+    &--success-dark {
+      color: $success-color--dark;
+    }
+
+    &--warning-light {
+      color: $warning-color--light;
+    }
+
+    &--warning-dark {
+      color: $warning-color--dark;
+    }
+
+    &--error-light {
+      color: $error-color--light;
+    }
+
+    &--error-dark {
+      color: $error-color--dark;
+    }
+  }
+}

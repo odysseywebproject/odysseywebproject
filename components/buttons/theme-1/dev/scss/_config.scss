@@ -1,0 +1,38 @@
+
+// Paleta de colores
+
+$text-button-color: #888;
+$button-color: #888;
+$outlined-button-color: #888;
+
+$button-color--light: #ccc;
+$button-color--dark: #474747;
+
+$info-color: #03A9F4;
+$info-color--light: #81D4FA;
+$info-color--dark: #0288D1;
+
+$success-color: #66BB6A;
+$success-color--light: #A5D6A7;
+$success-color--dark: #388E3C;
+
+$warning-color: #FFA726;
+$warning-color--light: #FFCC80;
+$warning-color--dark: #F57C00;
+
+$error-color: #EF5350;
+$error-color--light: #EF9A9A;
+$error-color--dark: #E53935;
+
+// Configuración de los botones
+$buttons-font-size: .8rem;
+$buttons-font-weight: 500;
+
+// Variables de control
+
+/* $auxiliar-classes: esta variable solo puede tener dos valores: true o false. Si vale
+ * true, cuando se compile el css se generarán unas variantes de los botones con un color
+ * más claro y otro con color más oscuro; si vale false, solamente se compilará la clase
+ * normal del botón.
+ */
+$auxiliar-classes: true;

@@ -1,0 +1,59 @@
+.outlined-button {
+  color: $outlined-button-color;
+  border: 2px solid $outlined-button-color;
+  background-color: transparent;
+
+  &--info {
+    color: $info-color;
+    border: 2px solid $info-color;
+  }
+
+  &--success {
+    color: $success-color;
+    border: 2px solid $success-color;
+  }
+
+  &--warning {
+    color: $warning-color;
+    border: 2px solid $warning-color;
+  }
+
+  &--error {
+    color: $error-color;
+    border: 2px solid $error-color;
+  }
+
+  @if ($auxiliar-classes) {
+    &--info-light {
+
+    }
+
+    &--info-dark {
+
+    }
+
+    &--success-light {
+
+    }
+
+    &--success-dark {
+
+    }
+
+    &--warning-light {
+
+    }
+
+    &--warning-dark {
+
+    }
+
+    &--error-light {
+
+    }
+
+    &--error-dark {
+
+    }
+  }
+}

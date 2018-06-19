@@ -1,0 +1,16 @@
+.text-button,
+.outlined-button,
+.button {
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: .5rem .75rem;
+  cursor: pointer;
+  font-weight: $buttons-font-weight;
+  font-size: $buttons-font-size;
+
+  &:focus {
+    outline: none;
+  }
+}
